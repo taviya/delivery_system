@@ -1,0 +1,5 @@
+=================03-07-2021============
+CREATE TABLE `dynamic_admin_db`.`shop` ( `10` INT NOT NULL ,  `shop_name` VARCHAR(200) NOT NULL ,  `email` VARCHAR(50) NOT NULL ,  `mobile_no` VARCHAR(15) NOT NULL ,  `turnover` VARCHAR(30) NOT NULL ,  `shop_image` VARCHAR(200) NOT NULL ,  `is_active` INT NOT NULL ,  `deleted_at` TIMESTAMP NULL DEFAULT NULL ,  `created_at` TIMESTAMP NULL DEFAULT NULL ,  `updated_at` TIMESTAMP NULL DEFAULT NULL ,    PRIMARY KEY  (`10`)) ENGINE = InnoDB;
+ALTER TABLE `shop` CHANGE `is_active` `is_active` INT(11) NOT NULL DEFAULT '1';
+ALTER TABLE `shop` CHANGE `id` `id` INT(11) NOT NULL AUTO_INCREMENT;
+
