@@ -29,6 +29,5 @@ include 'admin-route.php';
 #=========== Kanji Routes =============#
 include 'kanji-route.php';
 
-//abc
 #=========== Ravi Routes =============#
 include 'ravi-route.php';
